@@ -10,7 +10,7 @@ async function init() {
   dotenv.config();
 
   const app = express();
-  const port = 4001;
+  const port = 4000;
 
   await client.connect();
 
